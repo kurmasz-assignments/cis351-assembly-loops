@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "The tests",
+      "setup": "curl -O \"https://www.cis.gvsu.edu/~kurmasz/Autograder/{Loops1Test_Strong.class,munit.jar}\"",
+      "run": "java -jar munit.jar loops1.asm Loops1Test_Strong.class",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
