@@ -13,7 +13,7 @@ public class Loops1TestSample {
    *
    ******************************************************************/
 
-  Label array1 = wordData(5, 4, 7, 6, 9, 8, 2, 1, -1);
+    Label array1 = wordData(5, 4, 7, 6, 9, 8, 2, 1, -1, -5);
 
  @Rule 
      public Timeout globalTimeout = Timeout.seconds(5);    
